@@ -1,0 +1,15 @@
+[package]
+name = "cran"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+repository = "https://github.com/devmcsam/cran/crate/cran"
+license.workspace = true
+description = "Tools to check how random a list or stream of data is"
+readme = "README.md"
+homepage = "https://github.com/devmcsam/cran/crate/cran"
+categories = ["mathematics", "security", "cryptography", "finance"]
+keywords = ["random", "math", "data", "crypto"]
+
+
+[dependencies]

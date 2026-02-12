@@ -1,0 +1,14 @@
+[package]
+name = "cran-math"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+repository = "https://github.com/devmcsam/cran/crate/cran-math"
+license.workspace = true
+description = "Math tools and functions for the cran library"
+readme = "README.md"
+homepage = "https://github.com/devmcsam/cran/crate/cran-math"
+categories = ["mathematics", "security", "cryptography", "finance"]
+keywords = ["random", "math", "data", "crypto"]
+
+[dependencies]

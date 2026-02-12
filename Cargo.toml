@@ -1,0 +1,24 @@
+[workspace]
+
+members = [
+    "crates/cran",
+    "crates/cran-cli",
+    "crates/cran-core",
+    "crates/cran-math",
+]
+
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Samuel McNally"]
+edition = "2024"
+repository = "https://github.com/sammcdev/cran"
+license = "MIT"
+description = "A randomness tester in rust"
+homepage = "https://github.com/sammcdev/cran"
+readme = "README.md"
+
+cran-core = { path = "crates/cran-core", version = "0.1.0" }
+cran-math = { path = "crates/cran-math", version = "0.1.0" }
+cran = { path = "crates/cran", version = "0.1.0" }
