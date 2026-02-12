@@ -12,3 +12,4 @@ categories = ["mathematics", "security", "cryptography", "finance"]
 keywords = ["random", "math", "data", "crypto"]
 
 [dependencies]
+num-traits = "0.2.19"
