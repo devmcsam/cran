@@ -14,5 +14,4 @@ keywords = ["random", "math", "data", "crypto"]
 [dependencies]
 serde = { version = "1.0.228", features = ["derive"] }
 thiserror = "2.0.18"
-rayon = "1.11.0"
 bitvec = "1.0.1"

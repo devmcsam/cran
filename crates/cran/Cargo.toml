@@ -13,3 +13,4 @@ keywords = ["random", "math", "data", "crypto"]
 
 
 [dependencies]
+rayon = "1.11.0"
