@@ -32,3 +32,11 @@
 #![deny(clippy::todo)]
 #![deny(clippy::unimplemented)]
 #![allow(clippy::incompatible_msrv)]
+
+mod error;
+mod traits;
+mod types;
+
+pub use error::CranCoreError;
+pub use traits::{RandomnessTest, DEFAULT_SIGNIFICANCE_LEVEL};
+pub use types::{TestId, TestResult, TestSummary, TestVerdict};
